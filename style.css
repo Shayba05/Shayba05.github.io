@@ -1,51 +1,96 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+/* /* * {
+  border-top: 10px solid #440d8d;
+} this applys to the full page */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  color: rgb(37, 45, 56);
   font-family: sans-serif;
+  border-top: 10px solid #175caa;
+  padding: 0px 5px;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+.main-header {
+  /* padding: 10px;
+  padding-left: 10px; */
+  padding: 20px 20px;
+  margin-bottom: 40px;
+  height: 100px;
+}
+aside {
+  background-color: rgba(185, 198, 211, 0.624);
+  border-top: 5px solid #175caa;
+  border-bottom: 5px solid #175caa;
+  padding: 30px 0px;
+  width: 500px;
 }
 h2,
 h3,
 h4 {
-  color: #063291c4;
+  color: #087416c4;
 }
 
 h1 {
-  color: #175caa;
+  color: #0e6b16;
   font-size: 40px;
   text-align: center;
+  margin-bottom: 20px;
 }
-
+nav {
+  font-size: 19px;
+  padding-top: 20px;
+  margin-right: 12px;
+}
 h2 {
   font-size: 30px;
   font-style: normal;
+  margin-bottom: 20px;
 }
-
+.image {
+  margin-bottom: 20px;
+}
 h3 {
   font-size: 30px;
+  padding: 20px 0px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 23px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-size: 19px;
-  line-height: 1.2;
-  color: #444;
+  line-height: 1.9;
+  margin-bottom: 5px;
 }
 
 li {
   font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-
+li:last-child {
+  margin-bottom: 12px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin: 15px 50px;
+}
 /* footer p {
   font-size: 16px;
 } */
 #copyright {
   font-size: 16px;
+  margin-top: 10px;
 }
 
 /*article header h2 p{
@@ -72,12 +117,6 @@ li {
 
 header {
   background-color: #d7dce49f;
-}
-
-aside {
-  background-color: #b9c6d39f;
-  border-top: 5px solid #0c1f86;
-  border-bottom: 5px solid #0c1f86;
 }
 
 /* .first-li {
@@ -108,7 +147,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #00af3a;
+  color: rgb(5, 112, 41);
 }
 a:hover {
   color: orangered;
@@ -121,3 +160,23 @@ a:active {
   font-style: italic;
 }
 /* LVHA */
+
+/* resolving conflicts */
+
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: yellow;
+}
+.text {
+  color: green;
+}
+footer p {
+  color: blue;
+} */
+
+.baghdad {
+  width: 100%;
+  height: auto;
+}

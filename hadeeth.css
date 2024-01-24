@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+  border-top: 20px solid #4b5aad;
+}
+
+header {
+  font-size: 30px solid;
+  background-color: bisque;
+  padding: 20px;
+  color: green;
+}
+.header {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(23, 0, 128);
+  padding: 15px;
+}
+nav {
+  margin: 10px 10px;
+  line-height: 1.5;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
+a:hover {
+  color: rgb(2, 124, 84);
+  text-decoration: underline;
+}
+a:active {
+  background-color: yellow;
+}
