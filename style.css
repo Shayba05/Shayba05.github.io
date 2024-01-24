@@ -11,12 +11,11 @@ body {
   border-top: 10px solid #175caa;
   padding: 0px 5px;
 }
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
-}
+  margin: 0 auto;} */
 .main-header {
   /* padding: 10px;
   padding-left: 10px; */
