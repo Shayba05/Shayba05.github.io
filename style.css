@@ -4,7 +4,9 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
+
 body {
   color: rgb(37, 45, 56);
   font-family: sans-serif;
@@ -12,31 +14,30 @@ body {
   padding: 0px 5px;
   position: relative;
 }
-/* .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;} */
+
 
 .container {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
+
 .main-header {
   /* padding: 10px;
   padding-left: 10px; */
   padding: 20px 20px;
-  margin-bottom: 40px;
-  height: 100px;
+  margin-bottom: 60px;
+  height: 65px;
 }
+
 aside {
-  background-color: rgba(185, 198, 211, 0.624);
+  background-color: #eceaea;
   border-top: 5px solid #175caa;
   border-bottom: 5px solid #175caa;
-  padding: 30px 0px;
-  width: 700px;
+  padding: 50px 40px;
 }
+
 h2,
 h3,
 h4 {
@@ -44,17 +45,19 @@ h4 {
 }
 
 h1 {
-  color: #0e6b16;
+  color: #300c91;
   font-size: 40px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
+
 nav {
   font-size: 19px;
-  padding-top: 20px;
+  padding: 0px;
   margin-right: 12px;
   text-align: center;
 }
+
 h2 {
   font-size: 30px;
   font-style: normal;
@@ -71,6 +74,7 @@ h4 {
   font-size: 23px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -84,9 +88,11 @@ li {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 li:last-child {
   margin-bottom: 12px;
 }
+
 ul,
 ol {
   margin-left: 50px;
@@ -120,6 +126,8 @@ ol {
 
 .related {
   list-style: none;
+  margin-left:0;
+
 }
 
 header {
@@ -222,19 +230,52 @@ h2::first-letter {
   color:red ;
 } */
 
-h2{
+h2 {
   position: relative;
 }
 
-h2::after{
+h2::after {
   content: "TOP";
-  background-color:#ffe70e;
-  color:#000;
-  font-size:16px;
-  font-weight:bold;
-  display:inline-block;
-  padding:5px 10px;
+  background-color: #ffe70e;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
   position: absolute;
   top: -15px;
   right: -25px;
+}
+
+/* Floats  section 4*/
+
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }

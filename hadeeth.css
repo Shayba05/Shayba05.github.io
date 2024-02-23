@@ -1,16 +1,16 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
-  border-top: 20px solid #4b5aad;
+  border-top: 10px solid #175caa;
 }
 
 header {
   font-size: 30px solid;
-  background-color: bisque;
-  padding: 20px;
+  background-color: #d7dce49f;
   color: green;
 }
 .header {
